@@ -13,4 +13,3 @@ right = false;
 ang_dist = 0;
 left_steps = 0;
 right_steps = 0;
-test = 0;

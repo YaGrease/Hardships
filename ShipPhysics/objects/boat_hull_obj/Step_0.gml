@@ -10,38 +10,41 @@ if (boat_turning)
 		turn_smoothing_buffer--;
 	}*/
 	ang_dist = angle_difference(image_angle, dir_to_mouse);
+	var right_dir;
 	var right_dist = 0;
 	var left_dist = 0;
 	if(ang_dist < 0)
 	{
+		right_dir = true;
 		right_dist = -ang_dist;		
 		left_dist = 360 + ang_dist;
 	}
 	else
 	{
+		right_dir = false;
 		left_dist = ang_dist;
 		right_dist = 360 - ang_dist;
 	}
 	
-	right_steps = find_closest_path(-right_dist,
+	/*right_steps = find_closest_path(-right_dist,
 									    boat_turn_speed, boat_turn_max_speed,
 										boat_turn_accel);
 	left_steps = find_closest_path(left_dist,
 									    boat_turn_speed, boat_turn_max_speed,
 										boat_turn_accel);
-										
+										*/
 	brake_dist = (boat_turn_speed * boat_turn_speed) / (2 * abs(boat_turn_accel)); 
 	remaining = abs(ang_dist);
 	if(brake_dist >= remaining && (sign(ang_dist) != sign(boat_turn_speed)))
 	{
-		if(right_steps >= left_steps)
+		if(!right_dir)
 			boat_turn_speed = min(boat_turn_speed + boat_turn_accel, boat_turn_max_speed);
 		else
 			boat_turn_speed = max(boat_turn_speed - boat_turn_accel, -boat_turn_max_speed);
 	}
 	else
 	{
-		if(right_steps > left_steps)
+		if(!right_dir)
 		{
 			boat_turn_speed = max(boat_turn_speed - boat_turn_accel, -boat_turn_max_speed);
 			right = true;
