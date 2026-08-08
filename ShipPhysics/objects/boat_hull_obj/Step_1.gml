@@ -10,14 +10,16 @@ if (move_buffer == 3 && sail_up == false)
 		
 		if(wind_sail_diff <= 20)
 		{
-			sailing_speed = scale_speed;
+			sailing_speed += (scale_speed/10);
+			sailing_speed = min(sailing_speed, scale_speed);
 		}
 		else if(wind_sail_diff > 20 && wind_sail_diff < 100)
 		{
 			var multiplier = ceil(((80 - (wind_sail_diff - 20)) / 80.0) * 100);
 			if (multiplier < 10)
 				multiplier = 10;
-			sailing_speed = scale_speed * (multiplier / 100.0);
+			sailing_speed += ((scale_speed * (multiplier / 100.0))/10);
+			sailing_speed = min(sailing_speed, scale_speed);
 		}
 
 	}
