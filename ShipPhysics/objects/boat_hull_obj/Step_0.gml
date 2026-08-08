@@ -23,7 +23,7 @@ if (boat_turning)
 		right_dist = 360 - ang_dist;
 	}
 	
-	right_steps = find_closest_path(-right_dist,
+	/*right_steps = find_closest_path(-right_dist,
 									    boat_turn_speed, boat_turn_max_speed,
 										boat_turn_accel);
 	left_steps = find_closest_path(left_dist,
@@ -31,7 +31,7 @@ if (boat_turning)
 										boat_turn_accel);
 										
 	brake_dist = (boat_turn_speed * boat_turn_speed) / (2 * abs(boat_turn_accel)); 
-	remaining = abs(ang_dist);
+	remaining = abs(ang_dist);*/
 	if(brake_dist >= remaining && (sign(ang_dist) != sign(boat_turn_speed)))
 	{
 		if(right_steps >= left_steps)
