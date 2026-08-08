@@ -91,6 +91,12 @@ if mouse_check_button_pressed(mb_right)
 	}
 }
 
+if(keyboard_check_pressed(vk_space)){
+    var cb = instance_create_depth(x, y, depth, cannon_ball_obj);
+    cb.direction = image_angle;
+    cb.image_angle = image_angle;
+}
+
 if keyboard_check_pressed(ord("Q"))
 {
 	if(sail_up == true)

@@ -17,7 +17,12 @@ if (move_buffer == 3 && sail_up == false)
 			var multiplier = ceil(((80 - (wind_sail_diff - 20)) / 80.0) * 100);
 			if (multiplier < 10)
 				multiplier = 10;
+<<<<<<< Updated upstream
 			sailing_speed = scale_speed * (multiplier / 100.0);
+=======
+			sailing_speed += ((scale_speed * (multiplier / 100.0))/10);
+			sailing_speed = min(sailing_speed, scale_speed * (multiplier / 100.0));
+>>>>>>> Stashed changes
 		}
 
 	}
