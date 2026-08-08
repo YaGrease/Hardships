@@ -1,0 +1,12 @@
+car insurance
+x- tithing
+
+
+
+rogue - swashbuckler
+bard - 
+warlock/paladin - 
+
+I like what you did but erase my red writing, the arrow the word temple and the red dot. make the sides of the temple not get cut off.  Give a more zoomed out view to see the road and stuff around it.  
+
+Make the transition from the map to the building smooth like the temple was sitting on the map. So you can rotate the map image to make it match the orientation. What I mean by this is please rotate the google map from a simple top down to almost an angled version similar to the angle the temple is facing meaning we'd rotate the map picture about 45 degrees to the right and tilt it. Then have a slow zoom in when the hand is placing the pin and keep that centered to the lower one third. Then fit the temple to emerge from the center where the whitespace is in the center proportionately. 

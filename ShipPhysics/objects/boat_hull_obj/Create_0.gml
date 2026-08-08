@@ -1,7 +1,15 @@
 dir_to_mouse = 0;
 boat_turning = false;
-boat_turn_accel = 2;
+boat_turn_accel = 0.05;
+boat_turn_speed = 0;
+boat_turn_max_speed = 3;
 turn_smoothing_buffer = 3;
 sailing_speed = 0;
 move_buffer = 0;
 sail_up = true;
+brake_dist = 0;
+remaining = 0;
+right = false;
+ang_dist = 0;
+left_steps = 0;
+right_steps = 0;

@@ -1,0 +1,11 @@
+draw_text(100, 16, $"boat_turning = {boat_hull_obj.boat_turning}");
+draw_text(100, 32, $"boat_turn_sp = {boat_hull_obj.boat_turn_speed}");
+draw_text(100, 48, $"boat_dir_mou = {boat_hull_obj.dir_to_mouse}");
+draw_text(100, 64, $"boat_img_ang = {boat_hull_obj.image_angle}");
+draw_text(100, 80, $"boat_brk_dst = {boat_hull_obj.brake_dist}");
+draw_text(100, 96, $"boat_remaing = {boat_hull_obj.remaining}");
+draw_text(100, 112, $"boat_braking = {boat_hull_obj.brake_dist > boat_hull_obj.remaining}");
+draw_text(100, 128, $"boat_trn_rgt = {boat_hull_obj.right}");
+draw_text(100, 144, $"boat_trn_rgt = {boat_hull_obj.ang_dist}");
+draw_text(100, 160, $"boat_rgt_stp = {boat_hull_obj.right_steps}");
+draw_text(100, 176, $"boat_lft_stp = {boat_hull_obj.left_steps}");

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"find_closest_path",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"find_closest_path",
+  "parent":{
+    "name":"ShipPhysics",
+    "path":"ShipPhysics.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,3 @@
+only brake when cur_vel and remaining have the same sign
+
+another thing is we need to figure out why the non braking path gets stuck switching between 0 and barely not 0 speeds

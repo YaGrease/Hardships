@@ -1,0 +1,15 @@
+boat_turn_speed
+boat_turn_accel
+boat_turning
+
+
+do we need to maintain speed, speed up, or slow down? 
+
+think about it like a line calculate using quadratic formula to see destination
+
+if right and quadratic formula says we arrive or go past slow down
+if right and quadratic formula says we not arrive speed up or maintain max speed
+
+same thing for left
+
+if slow enough and at destination smooth stop
