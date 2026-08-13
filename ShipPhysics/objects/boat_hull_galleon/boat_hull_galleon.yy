@@ -1,15 +1,23 @@
 {
   "$GMObject":"",
   "%Name":"boat_hull_galleon",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"boat_hull_galleon",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"boat_hull_obj","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"propertyId":{"name":"size","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"boat_hull_obj","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"propertyId":{"name":"healthPoints","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+  ],
   "parent":{
     "name":"ShipPhysics",
     "path":"ShipPhysics.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"boat_hull_obj",
+    "path":"objects/boat_hull_obj/boat_hull_obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

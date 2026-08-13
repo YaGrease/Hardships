@@ -1,11 +1,14 @@
 {
   "$GMObject":"",
   "%Name":"boat_hull_sloop",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"boat_hull_sloop",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"boat_hull_obj","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"propertyId":{"name":"healthPoints","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"boat_hull_obj","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"propertyId":{"name":"healthPoints","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"boat_hull_obj","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"propertyId":{"name":"size","path":"objects/boat_hull_obj/boat_hull_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
   ],
   "parent":{
     "name":"ShipPhysics",
