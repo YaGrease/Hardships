@@ -38,7 +38,9 @@
   "resources":[
     {"id":{"name":"wind_speed_font","path":"fonts/wind_speed_font/wind_speed_font.yy",},},
     {"id":{"name":"boat_camera_obj","path":"objects/boat_camera_obj/boat_camera_obj.yy",},},
+    {"id":{"name":"boat_hull_galleon","path":"objects/boat_hull_galleon/boat_hull_galleon.yy",},},
     {"id":{"name":"boat_hull_obj","path":"objects/boat_hull_obj/boat_hull_obj.yy",},},
+    {"id":{"name":"boat_hull_sloop","path":"objects/boat_hull_sloop/boat_hull_sloop.yy",},},
     {"id":{"name":"cannon_ball_obj","path":"objects/cannon_ball_obj/cannon_ball_obj.yy",},},
     {"id":{"name":"debug_obj","path":"objects/debug_obj/debug_obj.yy",},},
     {"id":{"name":"pov_gui","path":"objects/pov_gui/pov_gui.yy",},},
